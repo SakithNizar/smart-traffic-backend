@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from simulator import generate_traffic_data
-from optimizer import optimize_signal_timing
+from app.services.simulator import generate_traffic_data
+from app.services.optimizer import optimize_signal_timing
 
 app = FastAPI()
 
